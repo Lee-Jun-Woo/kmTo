@@ -1,0 +1,28 @@
+h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: royalblue;
+}
+
+.header {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.header1 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.header2 {
+  display: inline-block;
+  width: 20rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  background-color: khaki;
+  border: 0.2rem solid black;
+  border-radius: 0.5rem;
+}
