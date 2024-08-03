@@ -41,9 +41,9 @@ function createText(text, time) {
 
 let i = 0;
 setInterval(function () {
-  deleteText(600);
-  i = (i + 1) % 5;
+  deleteText(500);
+  i = (i + 1) % 6;
   setTimeout(function () {
-    createText(cityName[i], 600);
-  }, 815);
+    createText(cityName[i], 500);
+  }, 830);
 }, 3000);
