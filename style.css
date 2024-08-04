@@ -14,7 +14,7 @@ body {
 
 .header1 {
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .header2 {
@@ -34,5 +34,32 @@ p {
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+button {
+  width: 12rem;
+  height: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid dimgray;
+  transition: transform 500ms;
+}
+
+.main1 {
+  font-size: 1rem;
+  background-color: sandybrown;
+}
+
+.main2 {
+  background-color: cornflowerblue;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+button:hover {
+  border: 0.2rem solid black;
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0.2rem 0.2rem 0.2rem lightgray;
 }
